@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileViewController" customModule="OrganizerApp" customModuleProvider="target">
+            <connections>
+                <outlet property="budgetLabel" destination="l71-HG-sgT" id="TFg-gr-bZO"/>
+                <outlet property="camLabel" destination="Zig-JZ-l8C" id="0sB-gN-Kh0"/>
+                <outlet property="conceptLabel" destination="yVM-Ng-L5p" id="5gT-d3-SIF"/>
+                <outlet property="dateLabel" destination="ZTU-zE-XOh" id="nnY-Wb-K7Z"/>
+                <outlet property="drinkLabel" destination="ZB8-M6-uvz" id="41m-KC-OYl"/>
+                <outlet property="feedLabel" destination="Yot-nI-9zi" id="jnQ-Cw-ujv"/>
+                <outlet property="personNumberLabel" destination="SGj-Pz-rh5" id="Omu-Mr-KnR"/>
+                <outlet property="placeLabel" destination="Ui4-gj-Eyd" id="KsD-0N-wcr"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Organize" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCQ-xw-uV1">
+                    <rect key="frame" x="20" y="59" width="353" height="34.333333333333343"/>
+                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="25"/>
+                    <color key="textColor" name="pink"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tarih:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yhu-PS-Y0x">
+                    <rect key="frame" x="20" y="98.333333333333329" width="353" height="24.666666666666671"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                    <color key="textColor" name="yellow"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTU-zE-XOh">
+                    <rect key="frame" x="20" y="127.99999999999999" width="353" height="27.333333333333329"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Butce:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tau-RC-k9w">
+                    <rect key="frame" x="20" y="175.33333333333334" width="353" height="24.666666666666657"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                    <color key="textColor" name="yellow"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l71-HG-sgT">
+                    <rect key="frame" x="20" y="205" width="353" height="27.333333333333343"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Konsept:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIO-8u-liy">
+                    <rect key="frame" x="20" y="252.33333333333334" width="353" height="24.666666666666657"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                    <color key="textColor" name="yellow"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVM-Ng-L5p">
+                    <rect key="frame" x="20" y="282" width="353" height="27.333333333333314"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kisi Sayisi:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyF-8N-DvC">
+                    <rect key="frame" x="20" y="329.33333333333331" width="353" height="24.666666666666686"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                    <color key="textColor" name="yellow"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGj-Pz-rh5">
+                    <rect key="frame" x="20" y="359" width="353" height="27.333333333333314"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mekan:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S3i-gW-y1V">
+                    <rect key="frame" x="20" y="406.33333333333331" width="353" height="24.666666666666686"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                    <color key="textColor" name="yellow"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ui4-gj-Eyd">
+                    <rect key="frame" x="20" y="436" width="353" height="27.333333333333314"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yemek:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGs-zf-lgX">
+                    <rect key="frame" x="20" y="483.33333333333331" width="353" height="24.666666666666686"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                    <color key="textColor" name="yellow"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yot-nI-9zi">
+                    <rect key="frame" x="20" y="513" width="353" height="27.333333333333371"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Icecek:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jmN-iS-K1A">
+                    <rect key="frame" x="20" y="560.33333333333337" width="353" height="24.666666666666629"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                    <color key="textColor" name="yellow"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZB8-M6-uvz">
+                    <rect key="frame" x="20" y="590" width="353" height="27.333333333333371"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kamera-Muzik:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4It-no-GvR">
+                    <rect key="frame" x="20" y="637.33333333333337" width="353" height="24.666666666666629"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                    <color key="textColor" name="yellow"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zig-JZ-l8C">
+                    <rect key="frame" x="20" y="667" width="353" height="27.333333333333371"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="purple"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ZB8-M6-uvz" secondAttribute="trailing" constant="20" id="2cg-lQ-LOC"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="SIO-8u-liy" secondAttribute="trailing" constant="20" id="2yz-4i-CjD"/>
+                <constraint firstItem="ZTU-zE-XOh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="3V6-ba-2bM"/>
+                <constraint firstItem="SGj-Pz-rh5" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="47B-lt-bW7"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ui4-gj-Eyd" secondAttribute="trailing" constant="20" id="4Oh-2w-v1M"/>
+                <constraint firstItem="jmN-iS-K1A" firstAttribute="top" secondItem="Yot-nI-9zi" secondAttribute="bottom" constant="20" id="6nB-9o-fZC"/>
+                <constraint firstItem="l71-HG-sgT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="71t-sH-dfr"/>
+                <constraint firstItem="ZB8-M6-uvz" firstAttribute="top" secondItem="jmN-iS-K1A" secondAttribute="bottom" constant="5" id="7oR-Z9-aXa"/>
+                <constraint firstItem="Tau-RC-k9w" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="9La-Bm-uHd"/>
+                <constraint firstItem="dyF-8N-DvC" firstAttribute="top" secondItem="yVM-Ng-L5p" secondAttribute="bottom" constant="20" id="AxS-Nt-5U1"/>
+                <constraint firstItem="yVM-Ng-L5p" firstAttribute="top" secondItem="SIO-8u-liy" secondAttribute="bottom" constant="5" id="Bny-Eh-5T3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="dyF-8N-DvC" secondAttribute="trailing" constant="20" id="Ck9-4q-bfu"/>
+                <constraint firstItem="yhu-PS-Y0x" firstAttribute="top" secondItem="vCQ-xw-uV1" secondAttribute="bottom" constant="5" id="DKc-Xf-j0p"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="SGj-Pz-rh5" secondAttribute="trailing" constant="20" id="DNq-hR-Rhw"/>
+                <constraint firstItem="DGs-zf-lgX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Eu0-td-RZ8"/>
+                <constraint firstItem="Yot-nI-9zi" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="GVa-Rt-b0E"/>
+                <constraint firstItem="Ui4-gj-Eyd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="I4P-ip-PoF"/>
+                <constraint firstItem="4It-no-GvR" firstAttribute="top" secondItem="ZB8-M6-uvz" secondAttribute="bottom" constant="20" id="JJO-pM-wYk"/>
+                <constraint firstItem="S3i-gW-y1V" firstAttribute="top" secondItem="SGj-Pz-rh5" secondAttribute="bottom" constant="20" id="JUP-9p-TnA"/>
+                <constraint firstItem="SIO-8u-liy" firstAttribute="top" secondItem="l71-HG-sgT" secondAttribute="bottom" constant="20" id="MXg-fC-i2X"/>
+                <constraint firstItem="l71-HG-sgT" firstAttribute="top" secondItem="Tau-RC-k9w" secondAttribute="bottom" constant="5" id="Pcd-RN-ory"/>
+                <constraint firstItem="Ui4-gj-Eyd" firstAttribute="top" secondItem="S3i-gW-y1V" secondAttribute="bottom" constant="5" id="Qi3-eH-a4h"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="l71-HG-sgT" secondAttribute="trailing" constant="20" id="Rsh-aN-kPY"/>
+                <constraint firstItem="SIO-8u-liy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="VXI-HY-6ju"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="vCQ-xw-uV1" secondAttribute="trailing" constant="20" id="WNm-bz-k7V"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Zig-JZ-l8C" secondAttribute="trailing" constant="20" id="WSb-ny-rBr"/>
+                <constraint firstItem="ZB8-M6-uvz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="WV4-8b-hmg"/>
+                <constraint firstItem="SGj-Pz-rh5" firstAttribute="top" secondItem="dyF-8N-DvC" secondAttribute="bottom" constant="5" id="Xg4-VV-Vqn"/>
+                <constraint firstItem="4It-no-GvR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="d3B-66-k5l"/>
+                <constraint firstItem="Zig-JZ-l8C" firstAttribute="top" secondItem="4It-no-GvR" secondAttribute="bottom" constant="5" id="deb-0F-OAd"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="DGs-zf-lgX" secondAttribute="trailing" constant="20" id="fi6-6R-DJE"/>
+                <constraint firstItem="Tau-RC-k9w" firstAttribute="top" secondItem="ZTU-zE-XOh" secondAttribute="bottom" constant="20" id="g7L-Wc-nYb"/>
+                <constraint firstItem="Yot-nI-9zi" firstAttribute="top" secondItem="DGs-zf-lgX" secondAttribute="bottom" constant="5" id="gbE-ao-lsI"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ZTU-zE-XOh" secondAttribute="trailing" constant="20" id="iVg-T9-k0D"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="yVM-Ng-L5p" secondAttribute="trailing" constant="20" id="iYQ-oh-X11"/>
+                <constraint firstItem="dyF-8N-DvC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="kPV-ir-zma"/>
+                <constraint firstItem="S3i-gW-y1V" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="kb3-dJ-TNH"/>
+                <constraint firstItem="ZTU-zE-XOh" firstAttribute="top" secondItem="yhu-PS-Y0x" secondAttribute="bottom" constant="5" id="kjj-IA-v06"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="yhu-PS-Y0x" secondAttribute="trailing" constant="20" id="lhc-sy-5p1"/>
+                <constraint firstItem="Zig-JZ-l8C" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="mF4-Q2-Oil"/>
+                <constraint firstItem="jmN-iS-K1A" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="mgI-lh-0MY"/>
+                <constraint firstItem="vCQ-xw-uV1" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="ozD-My-HkQ"/>
+                <constraint firstItem="yhu-PS-Y0x" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="qVW-Gt-DRY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="S3i-gW-y1V" secondAttribute="trailing" constant="20" id="r0A-V5-0mJ"/>
+                <constraint firstItem="vCQ-xw-uV1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="rUh-FY-3Y4"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="jmN-iS-K1A" secondAttribute="trailing" constant="20" id="rlR-J4-Q3G"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Tau-RC-k9w" secondAttribute="trailing" constant="20" id="tt5-1h-JB9"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="4It-no-GvR" secondAttribute="trailing" constant="20" id="v9k-Uz-DBK"/>
+                <constraint firstItem="yVM-Ng-L5p" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="w5Z-dG-LOU"/>
+                <constraint firstItem="DGs-zf-lgX" firstAttribute="top" secondItem="Ui4-gj-Eyd" secondAttribute="bottom" constant="20" id="xfN-Uw-J4a"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Yot-nI-9zi" secondAttribute="trailing" constant="20" id="yM9-6G-xLW"/>
+            </constraints>
+            <point key="canvasLocation" x="27" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="pink">
+            <color red="0.94117647058823528" green="0.52156862745098043" blue="0.72156862745098038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="purple">
+            <color red="0.30980392156862746" green="0.32156862745098042" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yellow">
+            <color red="1" green="0.84313725490196079" blue="0.49019607843137253" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

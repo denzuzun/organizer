@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="101" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="OrganizerApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="101"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="101"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mv8-Nn-vU7">
+                        <rect key="frame" x="10" y="5" width="160" height="91"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="160" id="Co7-Eh-kg2"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Ewi-iw-E0f">
+                        <rect key="frame" x="180" y="28.333333333333332" width="130" height="44.333333333333343"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="COa-dW-CCA">
+                                <rect key="frame" x="0.0" y="0.0" width="130" height="20.666666666666668"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSZ-G9-EpG">
+                                <rect key="frame" x="0.0" y="23.666666666666664" width="130" height="20.666666666666664"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Mv8-Nn-vU7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="2JV-QU-D60"/>
+                    <constraint firstAttribute="trailing" secondItem="Ewi-iw-E0f" secondAttribute="trailing" constant="10" id="NQW-lR-7xz"/>
+                    <constraint firstAttribute="bottom" secondItem="Mv8-Nn-vU7" secondAttribute="bottom" constant="5" id="ms8-0d-9fz"/>
+                    <constraint firstItem="Mv8-Nn-vU7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="w7x-Ba-60u"/>
+                    <constraint firstItem="Ewi-iw-E0f" firstAttribute="leading" secondItem="Mv8-Nn-vU7" secondAttribute="trailing" constant="10" id="xJv-a8-n6q"/>
+                    <constraint firstItem="Ewi-iw-E0f" firstAttribute="centerY" secondItem="Mv8-Nn-vU7" secondAttribute="centerY" id="xch-4w-gd6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" name="purple"/>
+            <connections>
+                <outlet property="dataImage" destination="Mv8-Nn-vU7" id="5eA-Rj-921"/>
+                <outlet property="nameLabel" destination="COa-dW-CCA" id="m5f-R5-6PT"/>
+                <outlet property="priceLabel" destination="uSZ-G9-EpG" id="A6Z-aC-3Ho"/>
+            </connections>
+            <point key="canvasLocation" x="138.93129770992365" y="39.7887323943662"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="purple">
+            <color red="0.30980392156862746" green="0.32156862745098042" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

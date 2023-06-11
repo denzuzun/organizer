@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="OrganizerApp" customModuleProvider="target">
+            <connections>
+                <outlet property="emailLabel" destination="Iw4-P5-CEM" id="GiP-LF-qeq"/>
+                <outlet property="emailTextField" destination="qfk-5A-IxQ" id="kYu-5p-5Ul"/>
+                <outlet property="forgotPasswordView" destination="xbR-YG-oP0" id="6XO-hZ-cIx"/>
+                <outlet property="passwordTextField" destination="LFq-5B-Tff" id="y10-ca-A56"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAKE YOUR OWN ORGANIZATION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cF8-UN-a78">
+                    <rect key="frame" x="20" y="159" width="353" height="21"/>
+                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="13"/>
+                    <color key="textColor" name="pink"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-mail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iw4-P5-CEM">
+                    <rect key="frame" x="20" y="230" width="353" height="23.333333333333343"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ORGANIZER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="py6-zQ-Gni">
+                    <rect key="frame" x="20" y="109" width="353" height="40"/>
+                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qfk-5A-IxQ">
+                    <rect key="frame" x="20" y="258.33333333333331" width="353" height="34"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sifre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="su5-b1-19j">
+                    <rect key="frame" x="20" y="312.33333333333331" width="353" height="23.333333333333314"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LFq-5B-Tff">
+                    <rect key="frame" x="20" y="340.66666666666669" width="353" height="34"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ANt-tu-i3m">
+                    <rect key="frame" x="90" y="474.66666666666669" width="100" height="40.000000000000057"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="MRb-nS-bMv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                    <color key="tintColor" name="pink"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Giris Yap"/>
+                    <connections>
+                        <action selector="didTapLogIn:" destination="-1" eventType="touchUpInside" id="nRg-p8-6DV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pps-nd-7P8">
+                    <rect key="frame" x="203" y="474.66666666666669" width="100" height="40.000000000000057"/>
+                    <color key="backgroundColor" name="pink"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="dhO-yV-kPg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Kayit Ol"/>
+                    <connections>
+                        <action selector="didTapSignIn:" destination="-1" eventType="touchUpInside" id="mw8-Er-9qR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yma-Hy-kXE">
+                    <rect key="frame" x="258" y="399.66666666666669" width="115" height="33"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Sifremi Unuttum">
+                        <color key="titleColor" name="pink"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapForgotPassword:" destination="-1" eventType="touchUpInside" id="HW6-zE-Ed7"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xbR-YG-oP0">
+                    <rect key="frame" x="0.0" y="302" width="393" height="248"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-mail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c04-Rr-2py">
+                            <rect key="frame" x="20" y="40" width="353" height="23.333333333333329"/>
+                            <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kgt-To-qB4">
+                            <rect key="frame" x="20" y="68.333333333333314" width="353" height="34"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q8S-0X-03D">
+                            <rect key="frame" x="146.66666666666666" y="142.33333333333331" width="100" height="40"/>
+                            <color key="backgroundColor" name="purple"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="Lci-2a-FFt"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Gonder"/>
+                            <connections>
+                                <action selector="didTapSendButton:" destination="-1" eventType="touchUpInside" id="lWF-Dq-QMg"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" name="pink"/>
+                    <constraints>
+                        <constraint firstItem="q8S-0X-03D" firstAttribute="centerX" secondItem="xbR-YG-oP0" secondAttribute="centerX" id="8Lm-Tj-0Nj"/>
+                        <constraint firstItem="Kgt-To-qB4" firstAttribute="top" secondItem="c04-Rr-2py" secondAttribute="bottom" constant="5" id="DyM-U3-0nr"/>
+                        <constraint firstItem="Kgt-To-qB4" firstAttribute="leading" secondItem="xbR-YG-oP0" secondAttribute="leading" constant="20" id="L62-Rq-bOI"/>
+                        <constraint firstAttribute="trailing" secondItem="Kgt-To-qB4" secondAttribute="trailing" constant="20" id="Mg1-TN-EWI"/>
+                        <constraint firstItem="c04-Rr-2py" firstAttribute="top" secondItem="xbR-YG-oP0" secondAttribute="top" constant="40" id="Vzs-I8-Oqx"/>
+                        <constraint firstItem="c04-Rr-2py" firstAttribute="leading" secondItem="xbR-YG-oP0" secondAttribute="leading" constant="20" id="nMr-lT-b80"/>
+                        <constraint firstItem="q8S-0X-03D" firstAttribute="top" secondItem="Kgt-To-qB4" secondAttribute="bottom" constant="40" id="u4h-M8-uuN"/>
+                        <constraint firstAttribute="trailing" secondItem="c04-Rr-2py" secondAttribute="trailing" constant="20" id="xga-c7-r80"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="purple"/>
+            <constraints>
+                <constraint firstItem="xbR-YG-oP0" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="1KA-nr-PcH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cF8-UN-a78" secondAttribute="trailing" constant="20" id="2db-K6-2GJ"/>
+                <constraint firstItem="xbR-YG-oP0" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="7sT-5J-zJX"/>
+                <constraint firstItem="ANt-tu-i3m" firstAttribute="top" secondItem="LFq-5B-Tff" secondAttribute="bottom" constant="100" id="9ZR-2m-rZr"/>
+                <constraint firstItem="LFq-5B-Tff" firstAttribute="top" secondItem="su5-b1-19j" secondAttribute="bottom" constant="5" id="CFJ-P4-Fg9"/>
+                <constraint firstItem="ANt-tu-i3m" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="90" id="HBU-MU-UUe"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="py6-zQ-Gni" secondAttribute="trailing" constant="20" id="HF0-Gt-weu"/>
+                <constraint firstItem="su5-b1-19j" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Jpb-eu-8Ub"/>
+                <constraint firstItem="yma-Hy-kXE" firstAttribute="top" secondItem="LFq-5B-Tff" secondAttribute="bottom" constant="25" id="Lcc-Lm-7Sr"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Pps-nd-7P8" secondAttribute="trailing" constant="90" id="LvU-Oo-Zhk"/>
+                <constraint firstItem="py6-zQ-Gni" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="S4S-IS-kNw"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="yma-Hy-kXE" secondAttribute="trailing" constant="20" id="TTy-DY-h4V"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="LFq-5B-Tff" secondAttribute="trailing" constant="20" id="Ugx-E4-BFk"/>
+                <constraint firstItem="cF8-UN-a78" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="XLQ-AV-cIH"/>
+                <constraint firstItem="Iw4-P5-CEM" firstAttribute="top" secondItem="cF8-UN-a78" secondAttribute="bottom" constant="50" id="aRx-sO-U6W"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="qfk-5A-IxQ" secondAttribute="trailing" constant="20" id="dM9-g5-xx5"/>
+                <constraint firstItem="py6-zQ-Gni" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="50" id="foE-OG-Z1u"/>
+                <constraint firstItem="su5-b1-19j" firstAttribute="top" secondItem="qfk-5A-IxQ" secondAttribute="bottom" constant="20" id="j4b-sx-aKN"/>
+                <constraint firstItem="xbR-YG-oP0" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="302" id="k6m-jV-cWh"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="su5-b1-19j" secondAttribute="trailing" constant="20" id="lcS-K0-9dT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Iw4-P5-CEM" secondAttribute="trailing" constant="20" id="m0p-kC-GKL"/>
+                <constraint firstItem="LFq-5B-Tff" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="nAN-xk-dNA"/>
+                <constraint firstItem="Pps-nd-7P8" firstAttribute="centerY" secondItem="ANt-tu-i3m" secondAttribute="centerY" id="pC6-Tp-1Co"/>
+                <constraint firstItem="cF8-UN-a78" firstAttribute="top" secondItem="py6-zQ-Gni" secondAttribute="bottom" constant="10" id="phE-Wj-ZSK"/>
+                <constraint firstItem="Iw4-P5-CEM" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="rNX-1c-cJX"/>
+                <constraint firstItem="xbR-YG-oP0" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="sCW-WC-eou"/>
+                <constraint firstItem="qfk-5A-IxQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="scN-Zq-dBU"/>
+                <constraint firstItem="qfk-5A-IxQ" firstAttribute="top" secondItem="Iw4-P5-CEM" secondAttribute="bottom" constant="5" id="u0M-bL-998"/>
+            </constraints>
+            <point key="canvasLocation" x="20.610687022900763" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="pink">
+            <color red="0.94117647058823528" green="0.52156862745098043" blue="0.72156862745098038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="purple">
+            <color red="0.30980392156862746" green="0.32156862745098042" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
